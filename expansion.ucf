@@ -1,0 +1,57 @@
+# CoolRunner-II Expansion Board
+
+# Inputs
+# Switches/Pushbuttons (shared)
+#
+#  0   1  ... 15
+# +-+ +-+     +-+
+# | | | | ... | | H
+# |.| |.|     |.| L
+# +-+ +-+     +-+
+#
+#  0   4   8   12
+#  o   o   o   o   H: pressed
+#  o   o   o   o   L: released
+#  o   o   o   o
+#  o   o   o   o
+#  3   7   11  15
+NET SW_EXP<0>		LOC = P9;
+NET SW_EXP<1>		LOC = P10;
+NET SW_EXP<2>		LOC = P6;
+NET SW_EXP<3>		LOC = P7;
+NET SW_EXP<4>		LOC = P4;
+NET SW_EXP<5>		LOC = P5;
+NET SW_EXP<6>		LOC = P2;
+NET SW_EXP<7>		LOC = P3;
+NET SW_EXP<8>		LOC = P140;
+NET SW_EXP<9>		LOC = P142;
+NET SW_EXP<10>		LOC = P138;
+NET SW_EXP<11>		LOC = P139;
+NET SW_EXP<12>		LOC = P135;
+NET SW_EXP<13>		LOC = P136;
+# NET SW_EXP<14>		LOC = P133;
+# NET SW_EXP<15>		LOC = P134;
+
+# Outputs
+# LEDs
+#
+#  0   1  ...  7
+#  *   *  ...  *   H: turn on
+#  *   *  ...  *   L: turn off
+#  8   9  ... 15
+NET LED_EXP<0>		LOC = P118;
+NET LED_EXP<1>		LOC = P119;
+NET LED_EXP<2>		LOC = P116;
+NET LED_EXP<3>		LOC = P117;
+NET LED_EXP<4>		LOC = P114;
+NET LED_EXP<5>		LOC = P115;
+NET LED_EXP<6>		LOC = P112;
+NET LED_EXP<7>		LOC = P113;
+NET LED_EXP<8>		LOC = P103;
+NET LED_EXP<9>		LOC = P104;
+NET LED_EXP<10>		LOC = P101;
+NET LED_EXP<11>		LOC = P102;
+NET LED_EXP<12>		LOC = P98;
+NET LED_EXP<13>		LOC = P100;
+NET LED_EXP<14>		LOC = P96;
+NET LED_EXP<15>		LOC = P97;
